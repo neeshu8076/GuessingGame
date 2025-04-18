@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <img src="photo.jpg" alt="Your Photo" class="profile-photo">
+    <p>Hello, I'm Neeshu Gautam. I'm a web developer passionate about creating interactive websites and applications.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Neeshu Gautam, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and various front-end and back-end technologies. I have a keen interest in building responsive and user-friendly web applications that provide meaningful experiences to users. My goal is to create applications that not only look good but also work seamlessly across all devices.</p>
+    <p>I have worked on various projects that demonstrate my ability to implement creative solutions, whether it's through interactive web features or clean, scalable code. I believe in continuous learning and always strive to improve my skills in web development and technology. In addition to web development, I am passionate about exploring new technologies, problem-solving, and collaborating with other developers to bring innovative ideas to life.</p>
+    <p>When I'm not coding, I enjoy reading tech blogs, contributing to open-source projects, and participating in online coding challenges. I am always looking for opportunities to enhance my skills and work on exciting, impactful projects.</p>
+</section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    
+    <!-- Number Guessing Game Project -->
+    <div class="project">
+      <h3>Number Guessing Game</h3>
+      <p>This <strong>Number Guessing Game</strong> is an interactive web-based game where players try to guess a randomly generated number between 1 and 100 within a set number of attempts. The game provides feedback after each guess, telling the player whether the guess is too high or too low. The player has 5 attempts to guess the correct number, and the game tracks the number of attempts used. It is a fun and engaging way for players to improve their logical thinking skills.</p>
+      <p>Key Features:
+        <ul>
+          <li>Random number generation between 1 and 100</li>
+          <li>Feedback on whether the guess is too high or too low</li>
+          <li>5 attempts to guess the correct number</li>
+          <li>Play Again option after each round</li>
+        </ul>
+      </p>
+      <a href="https://github.com/neeshu8076/GuessingGame/blob/main/GuessingGameApp.java" target="_blank">View Project</a>
+    </div>
+    
+    <div class="project">
+        <h3>ATM Interface Application (Java)</h3>
+        <p>The <strong>ATM Interface</strong> project is a command-line Java application that simulates basic ATM functionalities such as withdrawing money, depositing money, checking account balance, and exiting the session. The system is PIN-protected and built with clean, modular code structure to ensure reusability and scalability.</p>
+        <p>Key Features:</p>
+        <ul>
+          <li>User authentication with PIN verification</li>
+          <li>Options for Withdraw, Deposit, and Check Balance</li>
+          <li>Error-handling for invalid inputs and insufficient balance</li>
+          <li>Object-oriented design using classes like <code>ATMSystem</code> and <code>UserAccount</code></li>
+        </ul>
+        <a href="https://github.com/neeshu8076/GuessingGame/blob/main/ATMInterface.java" target="_blank">View Project</a>
+      </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:neeshu8076@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+    <p>You can also reach me at: <strong>8076181457</strong></p>
+  </section>
+
+  <footer>
+    <p>Follow me on <a href="https://github.com/neeshu8076">GitHub</a>, <a href="https://www.linkedin.com/in/neeshu-gautam-17961a291">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
